@@ -32,7 +32,7 @@ variable "TORCH_VERSION" {
 
 target "default" {
     dockerfile = "Dockerfile"
-    tags = ["${REGISTRY}/${REGISTRY_USER}/stable-diffusion-docker-base:${RELEASE}-cuda${CUDA_VERSION}-torch{$TORCH_VERSION}"]
+    tags = ["${REGISTRY}/${REGISTRY_USER}/stable-diffusion-docker-base:${RELEASE}-cuda${CUDA_VERSION}-torch${TORCH_VERSION}"]
     args = {
         RELEASE = "${RELEASE}"
         BASE_IMAGE = "${BASE_IMAGE_REPOSITORY}:${BASE_IMAGE_VERSION}-cuda${CUDA_VERSION}-torch${TORCH_VERSION}"
