@@ -22,7 +22,7 @@ wget -P sd-models/Stable-diffusion/SDXL -N https://huggingface.co/gsdf/Counterfe
 
 echo "Downloading Pony based model"
 
-wget -P sd-models/Stable-diffusion/Pony -N --content-disposition https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16&token= 
+wget -P sd-models/Stable-diffusion/Pony -N --content-disposition https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=
 wget -P sd-models/Stable-diffusion/Pony -N --content-disposition https://civitai.com/api/download/models/324619?token=
 wget -P sd-models/Stable-diffusion/Pony -N --content-disposition https://civitai.com/api/download/models/441236?token=
 
