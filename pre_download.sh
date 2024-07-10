@@ -37,16 +37,16 @@ echo "Downloading SD XL model"
 wget -P sd-models/Stable-diffusion/SDXL -i ./download_ckpt_sdxl.txt
 
 echo "Downloading SD 1.5 VAE"
-wget -P sd-models/VAE/SD15 -N https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
+wget -P sd-models/VAE/SD15 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 
 echo "Downloading SD XL VAE"
-wget -P sd-models/VAE/SDXL -N https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors
+wget -P sd-models/VAE/SDXL https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors
 
 echo "Downloading SD 1.5 LoRA"
-wget -O sd-models/Lora/SD15/lcm-lora-sdv1-5.safetensors -N https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
+wget -O sd-models/Lora/SD15/lcm-lora-sdv1-5.safetensors https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors
 
 echo "Downloading SD XL LoRA"
-wget -O sd-models/Lora/SDXL/lcm-lora-sdxl.safetensors -N https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
+wget -O sd-models/Lora/SDXL/lcm-lora-sdxl.safetensors https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors
 
 echo "Downloading SD 1.5 embedding"
 wget -P sd-models/embeddings/SD15 -i ./download_embeddings_sd15.txt

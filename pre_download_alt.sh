@@ -14,7 +14,7 @@ wget -P sd-models/Stable-diffusion/Pony --content-disposition -i ./download_ckpt
 
 echo "Downloading SD x4 Upscale model"
 
-wget -P sd-models/Stable-diffusion/upscale -N https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler/resolve/main/x4-upscaler-ema.safetensors
+wget -P sd-models/Stable-diffusion/upscale https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler/resolve/main/x4-upscaler-ema.safetensors
 
 echo "Downloading SD 1.5 based VAE"
 
