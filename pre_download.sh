@@ -11,6 +11,8 @@ mkdir sd-models/ESRGAN
 mkdir sd-models/RealESRGAN
 mkdir sd-models/GFPGAN
 mkdir sd-models/adetailer
+mkdir sd-models/sam
+mkdir sd-models/clip-interrogator
 
 mkdir sd-models/Stable-diffusion/SD15
 mkdir sd-models/Stable-diffusion/SDXL
@@ -61,3 +63,12 @@ wget -P sd-models/GFPGAN -i ./download_gfpgan.txt
 
 echo "Downloading adetailer model"
 wget -P sd-models/adetailer -i ./download_adetailer.txt
+
+echo "Downloading Segment Anything model"
+wget -P sd-models/sam -i ./download_sam.txt
+wget -P sd-models/sam -i ./download_sam_hq.txt
+
+echo "Downloading Clip Vision model"
+wget -O sd-models/clip-interrogator/ViT-L-14_openai.safetensors https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors
+wget -O sd-models/clip-interrogator/ViT-H-14_laion2b_s32b_b79k.safetensors https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K/resolve/main/open_clip_pytorch_model.safetensors
+wget -O sd-models/clip-interrogator/ViT-bigG-14_laion2b_s39b_b160k.safetensors https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k/resolve/main/open_clip_pytorch_model.safetensors
