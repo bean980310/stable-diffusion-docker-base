@@ -27,7 +27,7 @@ variable "CUDA_VERSION" {
 }
 
 variable "TORCH_VERSION" {
-    default = "2.3.0"
+    default = "2.3.1"
 }
 
 target "default" {
