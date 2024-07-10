@@ -58,3 +58,6 @@ echo "Downloading Upscaler models"
 wget -P sd-models/ESRGAN -i ./download_esrgan.txt
 wget -P sd-models/RealESRGAN -i ./download_realesrgan.txt
 wget -P sd-models/GFPGAN -i ./download_gfpgan.txt
+
+echo "Downloading adetailer model"
+wget -P sd-models/adetailer -i ./download_adetailer.txt
