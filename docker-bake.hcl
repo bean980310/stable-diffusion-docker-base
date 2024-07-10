@@ -7,7 +7,7 @@ variable "REGISTRY_USER" {
 }
 
 variable "RELEASE" {
-    default = "1.0.0"
+    default = "1.1.0"
 }
 
 variable "CU_VERSION" {
